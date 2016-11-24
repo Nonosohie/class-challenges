@@ -1,0 +1,45 @@
+function convert(cel) 
+// this function converts celsius to fahrenheit
+function convert(cel) 
+{
+  fel = (9/5) * (cel + 32);
+  return fel
+}
+convert(90);
+
+// this is a function that converts fahrenheit to celcuis
+function convert(feh) {
+  cel = (5/9) * ( feh -32);
+  return cel;
+}
+convert(120);
+
+//this function gets the factorial of a number
+function factorial(number)
+{
+  if (number == 1)   
+  {
+    return number;
+  }
+  else {
+    fact = (number * factorial(number - 1));
+    return fact;
+  }
+}
+factorial(12);
+
+//function to find the largest number in an array
+function largestElement(myArray)
+{
+  var largest = 0;
+  for  (var i = 0; i < myArray.length; i++)
+  {
+    if (myArray[i] > largest)
+    {
+    largest = myArray[i];
+    
+    }
+  }
+  return largest;
+}
+largestElement([2, 4, 6, 8, 10, 18, 20]);
